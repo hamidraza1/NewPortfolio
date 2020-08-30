@@ -27,22 +27,22 @@ const WorkDetails = props => {
     >
       <Project>
         <ProjectName ref={span}>AWWWARDS</ProjectName>
-        <img src={require(`../images/awards.jpg`)} alt="" />
+        <img src={require(`../images/awards.jpg`)} />
       </Project>
       <Project>
         <ProjectName>SHIELD</ProjectName>
-        <img src={require(`../images/shield.jpg`)} alt="" />
+        <img src={require(`../images/shield.jpg`)} />
       </Project>
       <Project>
         <ProjectName>MINDMAP</ProjectName>
-        <img src={require(`../images/minmapp.jpg`)} alt="" />
+        <img src={require(`../images/minmapp.jpg`)} />
       </Project>
       <Project>
         <ProjectName>
           CHAT
           <br /> DASHBOARD
         </ProjectName>
-        <img src={require(`../images/chat.jpg`)} alt="" />
+        <img src={require(`../images/chat.jpg`)} />
       </Project>
     </div>
   )

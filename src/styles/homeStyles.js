@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-export const Name = styled(motion.p)`
+export const Name = styled(motion.div)`
   font-size: 185px;
   font-weight: 600;
   color: #c7c7c7;
@@ -33,7 +33,7 @@ export const Name = styled(motion.p)`
     letter-spacing: 0.2rem;
   }
 `
-export const AboutMe = styled(motion.p)`
+export const AboutMe = styled(motion.div)`
   font-size: 25px;
   font-weight: 400;
   display: flex;
@@ -88,7 +88,7 @@ export const A = styled(motion.p)`
     padding: 10px 14px;
   }
 `
-export const MyWork = styled(motion.p)`
+export const MyWork = styled(motion.div)`
   font-size: 25px;
   font-weight: 400;
   font-family: sans-serif;

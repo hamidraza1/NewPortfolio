@@ -129,15 +129,6 @@ const Home = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-      {/* <div
-        style={{
-          position: "absolute",
-          height: "100vh",
-          width: "100%",
-          zIndex: "1000",
-          backgroundColor: "yellow",
-        }}
-      ></div> */}
       <DrawerHome
         onMouseEnter={() => sethovered(!hovered)}
         onMouseLeave={() => sethovered(!hovered)}
